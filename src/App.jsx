@@ -3,7 +3,7 @@ const App = () => {
   const [count, setCount] = useState(0);
   return (
     <div className="bg-green-700 text-center ">
-      <h1 className="text-3xl font-bold">React Counter</h1>
+      <h1 className="text-3xl font-bold mb-6">React Counter</h1>
       <div className="rounded-xl bg-bg-200 flex flex-col items-center gap-3 p-9">
         <h2 className="font-semibold text-3xl w-162.5">{count}</h2>
         <div className="flex gap-3 flex-wrap ">
